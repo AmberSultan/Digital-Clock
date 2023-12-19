@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body  {
+   background-image: url('../images/grey.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.clock
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  
+}
+.clock h1{
+    text-align:center;
+    text-transform:uppercase;
+    margin-left: 10px;
+    font-style: bold;
+    font-weight: 900;
+    font-size: 80px;
+
+}
+
+.clock span{
+  text-align:center;
+  text-transform:uppercase;
+  margin-left: 17px;
+  font-style: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 90;
+  font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
